@@ -198,9 +198,24 @@ for (i in 1:5){
 
 confusionMatrix(t)
 
-# Accuracy: 0.5874
+# Overall Statistics
+# 
+# Accuracy : 0.5874          
+# 95% CI : (0.5733, 0.6013)
+# No Information Rate : 0.3678          
+# P-Value [Acc > NIR] : < 2.2e-16       
+# 
+# Kappa : 0.4646          
+# Mcnemar's Test P-Value : NA              
+# 
 # Statistics by Class:
-#   
-#                       Class: 1 Class: 2 Class: 3 Class: 4 Class: 5 
-# Sensitivity           0.69231  0.70029   0.5869   0.6546  0.66667               
-# Specificity           0.97426  0.88099   0.8185   0.8503  0.94795               
+# 
+#                      Class: 1 Class: 2 Class: 3 Class: 4 Class: 5 Class: Not Available
+# Sensitivity           0.69231  0.70029   0.5869   0.6546  0.66667               0.4487
+# Specificity           0.97426  0.88099   0.8185   0.8503  0.94795               1.0000
+# Pos Pred Value        0.40099  0.49331   0.6529   0.5224  0.23197               1.0000
+# Neg Pred Value        0.99220  0.94671   0.7730   0.9078  0.99178               0.8498
+# Prevalence            0.02428  0.14197   0.3678   0.2001  0.02304               0.2428
+# Detection Rate        0.01681  0.09942   0.2159   0.1310  0.01536               0.1090
+# Detection Prevalence  0.04193  0.20154   0.3306   0.2507  0.06621               0.1090
+# Balanced Accuracy     0.83328  0.79064   0.7027   0.7524  0.80731               0.7244              
